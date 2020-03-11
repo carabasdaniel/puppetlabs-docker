@@ -1,0 +1,13 @@
+---
+version: 2
+groups:
+- name: local
+  targets:
+  - uri: litmus_localhost
+    config:
+      transport: local
+- name: ssh_nodes
+  targets: []
+- name: winrm_nodes
+  targets: []
+
